@@ -1,0 +1,41 @@
+.btn1{
+    border-radius: 20px;
+    padding: 19px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.violet{
+    background: #a259ff;
+    color: #fff;
+
+    &:hover{
+        background: #b781ff;
+    }
+}
+
+.line{
+    border: 2px solid #a259ff;
+    color: #fff;
+
+    &:hover{
+        background: rgba(162, 89, 255, 0.26);
+    }
+}
+
+.white{
+    background: #fff;
+    color: #2b2b2b;
+
+    &:hover{
+        background: #dbdbdb;
+    }
+}
