@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.right{
+
+    h2{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 51px;
+        line-height: 110%;
+        text-transform: capitalize;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    &__txt{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        color: #fff;
+    }
+}
+
+.wals{
+    margin-top: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}

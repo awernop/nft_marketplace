@@ -1,0 +1,140 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 80px;
+    padding-bottom: 80px;
+
+    input{
+        border: 1px solid #3b3b3b;
+        border-radius: 20px;
+        padding: 12px 20px;
+        width: 1050px;
+        height: 60px;
+        display: flex;
+        align-items: flex-start;
+        color: #fff;
+    }
+}
+
+.title{
+
+    h2{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 51px;
+        line-height: 110%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    span{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        color: #fff;
+    }
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    gap: 30px;
+    align-items: center;
+    background-color: #3b3b3b;
+    padding: 60px 115px;
+
+    &__back{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #3b3b3b;
+        width: 143.5%;
+        border-bottom: 3px solid #2b2b2b;
+    }
+}
+
+.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-bottom: 2px solid #858584;
+    padding: 0px 30px;
+    width: 525px;
+    height: 60px;
+
+    span{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 140%;
+        text-transform: capitalize;
+        text-align: center;
+        color: #fff;
+    }
+
+    div{
+        border-radius: 20px;
+        padding: 5px 10px;
+        background: #858584;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #fff;
+    }
+}
+
+.passive{
+    padding: 0px 30px;
+    width: 525px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    cursor: pointer;
+
+    span{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 140%;
+        text-transform: capitalize;
+        text-align: center;
+        color: #858584;
+    }
+
+    div{
+        background: #3b3b3b;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #fff;
+    }
+}

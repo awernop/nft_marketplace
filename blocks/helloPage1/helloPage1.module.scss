@@ -1,0 +1,92 @@
+.main1{
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.left{
+    max-width: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    h1{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 67px;
+        line-height: 110%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    &__txt{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+}
+
+.linenum{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.right{
+
+    &__card{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #3b3b3b;
+        border-radius: 20px;
+        transition: 0.3s ease-in-out;
+
+        &__title{
+            font-family: var(--second-family);
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 140%;
+            text-transform: capitalize;
+            color: #fff;
+        }
+
+        &__person{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            &__name{
+                font-family: var(--second-family);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 140%;
+                color: #fff;
+            }
+        }
+
+        &:hover{
+            box-shadow: 0 4px 65px 0 rgba(0, 0, 0, 0.25);
+        }
+    }
+
+    &__txt{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 22px;
+    }
+}
+
+.img{
+    width: 24px;
+    height: 24px;
+}

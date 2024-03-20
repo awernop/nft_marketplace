@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.top{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 60px;
+    gap: 210px;
+}
+
+.text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+
+    h2{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    span{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+}
+
+.creators{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}

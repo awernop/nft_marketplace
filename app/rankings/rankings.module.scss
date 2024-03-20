@@ -1,0 +1,121 @@
+.main{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    margin-bottom: 40px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    h2{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 51px;
+        line-height: 110%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    span{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        color: #fff;
+    }
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+}
+
+.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #858584;
+    padding: 0px 30px;
+    width: 262px;
+    height: 60px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+}
+
+.passive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    width: 262px;
+    height: 60px;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    text-align: center;
+    color: #858584;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    &:hover{
+        border-bottom: 2px solid #858584;
+        color: #fff;
+    }
+}
+
+.atrists{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cardes{
+
+    &__row{
+        display: flex;
+        align-items: center;
+        border: 1px solid #3b3b3b;
+        border-radius: 20px;
+        padding: 12px 20px;
+        width: 1050px;
+        height: 46px;
+        margin-bottom: 20px;
+    }
+
+    span{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #858584;
+    }
+
+    &__num{
+        margin-right: 45px;
+    }
+
+    &__artist{
+        margin-right: 410px;
+    }
+
+    &__txt{
+
+        span{
+            margin-right: 80px;
+        }
+    }
+}

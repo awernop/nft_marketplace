@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.top{
+    display: flex;
+    align-items: flex-end;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-right: 490px;
+
+    h2{
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    span{
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #fff;
+    }
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
